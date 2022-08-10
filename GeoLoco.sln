@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoLoco.CLI", "GeoLoco.CLI\GeoLoco.CLI.csproj", "{D7EC96E2-ABB7-4BBD-A924-06BA8427B7D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoLoco.Core", "GeoLoco.Core\GeoLoco.Core.csproj", "{05BDA031-5884-427D-97B8-42BBEF412031}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoLoco.Tests", "GeoLoco.Tests\GeoLoco.Tests.csproj", "{F1D75EBB-0677-4ED6-BF4C-6D81CD37D1BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02C9DE43-A104-457F-AEB9-BC8E13B80470}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLoco.Infrastructure", "GeoLoco.Infrastructure\GeoLoco.Infrastructure.csproj", "{81676EF9-F10F-4D6A-939C-844FABC84568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EC96E2-ABB7-4BBD-A924-06BA8427B7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EC96E2-ABB7-4BBD-A924-06BA8427B7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EC96E2-ABB7-4BBD-A924-06BA8427B7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EC96E2-ABB7-4BBD-A924-06BA8427B7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BDA031-5884-427D-97B8-42BBEF412031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BDA031-5884-427D-97B8-42BBEF412031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BDA031-5884-427D-97B8-42BBEF412031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BDA031-5884-427D-97B8-42BBEF412031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D75EBB-0677-4ED6-BF4C-6D81CD37D1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D75EBB-0677-4ED6-BF4C-6D81CD37D1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D75EBB-0677-4ED6-BF4C-6D81CD37D1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D75EBB-0677-4ED6-BF4C-6D81CD37D1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81676EF9-F10F-4D6A-939C-844FABC84568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81676EF9-F10F-4D6A-939C-844FABC84568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81676EF9-F10F-4D6A-939C-844FABC84568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81676EF9-F10F-4D6A-939C-844FABC84568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {287A91D4-00ED-42FD-A324-97F8AFABE21E}
+	EndGlobalSection
+EndGlobal

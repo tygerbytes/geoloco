@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Company>tygerbytes</Company>
+    <Authors>Ty Walls</Authors>
+    <Product>GeoLoco</Product>
+    <AssemblyName>geoloco</AssemblyName>
+    <ApplicationIcon>sun.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GeoLoco.Core\GeoLoco.Core.csproj" />
+    <ProjectReference Include="..\GeoLoco.Infrastructure\GeoLoco.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
